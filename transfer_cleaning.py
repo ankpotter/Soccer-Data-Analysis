@@ -25,7 +25,6 @@ with open('teams.csv','rb') as cfile:
 	for row in rows:
 		data_new.append(row)
 
-#add league names
 for i in range(len(data)):
 	for j in range(len(data_new)):
 		if(data[i][1] == data_new[j][0]):
