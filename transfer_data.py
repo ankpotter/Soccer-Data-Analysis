@@ -57,10 +57,6 @@ for ind in index:
 	del li_final_to[ind]
 	del li_final_from[ind]
 
-#li_final_p = ['Player Name'] + li_final_p 
-#li_final_to = ['Team_To'] + li_final_to
-#li_final_from = ['Team_From'] + li_final_from
-
 final_data = zip(li_final_p,li_final_to,li_final_from)
 index = 0
 with open('transfer.csv', 'wb') as f:
